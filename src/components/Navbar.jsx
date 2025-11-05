@@ -27,7 +27,6 @@ export default function Navbar() {
           <NavLink href="#about">About</NavLink>
           <a
             href="#contact"
-            onClick={(e) => e.preventDefault()}
             className="ml-2 rounded-md bg-white/10 hover:bg-white/20 text-white px-3 py-2 text-sm transition-colors"
           >
             Contact

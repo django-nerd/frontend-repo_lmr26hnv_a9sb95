@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Projects from './components/Projects.jsx';
 import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </section>
         <section id="about" className="relative">
           <About />
+        </section>
+        <section id="contact" className="relative">
+          <Contact />
         </section>
       </main>
     </div>
